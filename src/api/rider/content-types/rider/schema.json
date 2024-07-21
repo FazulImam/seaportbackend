@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "riders",
+  "info": {
+    "singularName": "rider",
+    "pluralName": "riders",
+    "displayName": "rider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true
+    }
+  }
+}
